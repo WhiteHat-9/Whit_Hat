@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main>
+    <div class="leftdiv"> <p1>Demon Slayer: Kimetsu no Yaiba</p1>
+   
+    
+    <p>Original title: Kimetsu no Yaiba
+        <br>
+        TV Series . 2019- . TV-MA . 24Min
+    </p>  
+    <div class="title"></div>
+   <button style="margin-left: 100px;">Action</button>
+   <button>Adveture</button>
+   <button>Comady</button>
+  <a href="#" style="text-decoration: none; color: black;"><div class="Watch">Watch Now</div>/a> 
+    </div>
+    <div class="episode hide">
+       <div class="outerdiv"><div class="innerdiv"></div><a href="#" style="text-decoration: none; margin-top: 40px; margin-left: 50px; color: white; font-family: serif; font-size: larger;">Episoad 1</a></div>  
+       <div class="outerdiv"><div class="innerdiv"></div><a href="#" style="text-decoration: none; margin-top: 40px; margin-left: 50px; color: white; font-family: serif; font-size: larger;">Episoad 2</a></div>
+        
+        <div class="outerdiv"><div class="innerdiv"></div><a href="#" style="text-decoration: none; margin-top: 40px; margin-left: 50px; color: white; font-family: serif; font-size: larger;">Episoad 3</a></div>
+        
+        <div class="outerdiv"><div class="innerdiv"></div><a href="#" style="text-decoration: none; margin-top: 40px; margin-left: 50px; color: white; font-family: serif; font-size: larger;">Episoad 4</a></div>
+        
+        <div class="outerdiv"><div class="innerdiv"></div><a href="#" style="text-decoration: none; margin-top: 40px; margin-left: 50px; color: white; font-family: serif; font-size: larger;">Episoad 5</a></div>
+        
+       
+        
+    </div>
+
+ </main>
+
+   
+ <script>
+let turn0 = true;
+let anime = document.querySelector(".episode");
+let watchbtn = document.querySelector(".Watch");
+
+    watchbtn.addEventListener("click",() => {
+    if (turn0 == true) {
+        anime.classList.remove("hide");
+        turn0 = false;
+        
+    } else {
+        anime.classList.add("hide");
+        turn0 = true;
+    }
+});
+ </script>  
+</body>
+</html>

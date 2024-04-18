@@ -1,0 +1,188 @@
+*{
+    padding: 0px;
+    color: white;
+    margin: 0px;
+    font-size: 19px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+video{
+    height: 740px;
+    width: 100%;
+    object-fit: cover;
+    z-index: -20;
+    position: fixed;
+    overflow: hidden;
+    top: 0px;
+    left: 0px;
+}
+.nav-left{
+    height: 70px;
+    width: 100%;
+    background-color: transparent;
+    z-index: 1;
+    position: absolute;
+    display: flex;
+    align-items: center;
+}
+
+.logo{
+    background-image: url("vspng.png");
+    height: 50px;
+    width: 354px;
+    
+    left: 0px;
+}
+
+.nav-right{
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0,5%;
+    transition: all 0.3s;
+    margin-left: 500px;
+}
+.nav-right ul{
+    list-style: none;
+    display: flex;
+}
+.nav-right ul li{
+    padding: 10px 30px;
+}
+.nav-right ul li a{
+    color: white;
+    text-decoration: none;
+}
+
+.nav-right ul li a:hover{
+    color: blue;
+
+}
+
+.hide{
+    display: none;
+}
+
+ .hii {
+    display: inline-table;
+    position: absolute;
+    right: 3%;
+    top: 100%;
+    background-color: transparent;
+    border: 2px solid #b3a6a6;
+    border-radius: 23px;
+    backdrop-filter: blur(13px);
+
+} 
+.dropdown{
+    display:inline-block ;
+    margin: 10px;
+
+}
+.dropdown > li{
+    width: 150px;
+    padding: 10px;
+}
+p {
+    position:absolute;
+    margin-top: 260px;
+    margin-left: 90px;
+    
+}
+
+
+main{
+    height: 740px;
+    width: 100%;
+    object-fit:cover;
+    background-image: url("wallpaper.jpg");
+    display: flex;    
+    
+}
+
+
+.leftdiv > p1{
+    height: 50px;
+    margin-top: 50px;
+   margin-left: 400px ;
+    font-size: 40px;
+    font-weight: 400;
+    font-family: serif;
+}
+.leftdiv > p{
+    margin-top: 30px;
+    margin-left: 350px;
+}
+.title{
+    height: 350px;
+    width: 270px;
+    background-image: url("demoncover.jpg");
+    object-fit: cover;
+    margin-top: 100px;
+    margin-left: 100px;
+    border: 0.5px solid rgb(165, 163, 156);
+    border-radius: 20px;
+}
+
+.leftdiv > button{
+    margin-top: 40px;
+    height: 50px;
+    width: 150px;
+    margin-left: 30px;
+    background-color: transparent;
+    color: #b3a6a6;
+    border: 2px solid rgb(57, 53, 58);
+    border-radius: 20px;
+    backdrop-filter: blur(15px);
+}
+
+.Watch{
+
+    height: 50px;
+    width: 180px;
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0px 50px 670px;
+    border: 1px solid rgb(174, 228, 210);
+    background-color: rgb(110, 238, 112);
+    border-radius: 30px;
+    color: black;
+
+ }
+ .episode{
+    height: 600px;
+    width: 420px;
+    background-color:transparent;
+    backdrop-filter: blur(20px);
+    margin: 60px 15px 40px 70px;
+    border-radius: 20px;
+    border: 1px solid rgb(66, 63, 63);
+
+    
+ }
+ .outerdiv{
+    display: flex;
+    margin-top: 18px;
+    
+ }
+ .innerdiv{
+    height: 100px;
+    width: 180px;
+   background-image: url("final.jpg");
+   object-fit:cover;
+    margin-left: 30px;
+    border: 1px solid rgb(66, 63, 63);
+    border-radius: 20px;
+    
+ }
+
+ 
+/* @media (max-width: 430px){
+    
+ video {
+    height: 932px;
+ } 
+} */
